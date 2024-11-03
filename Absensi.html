@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet"  type="text/css" href="admin.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-6.6.0-web/css/all.min.css" />
+   
+
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger fixed-top">
+      <a class="navbar-brand" href="#">SELAMAT DATANG </a>
+     
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+
+        <div class="icon ml-4">
+            <h5>
+                <i class="fa-solid fa-envelope mr-3" data-toggle="tooltip" title="surat masuk"></i>
+                <i class="fa-solid fa-bell mr-3" data-toggle="tooltip" title="Notifikasi"></i>
+                <i class="fa-solid fa-right-from-bracket mr-3" data-toggle="tooltip" title="sing out"></i>
+            </h5>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row no-gutters mt-5">
+        <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
+            <ul class="nav flex-column ml-3 mb-5">
+              <li class="nav-item">
+                <a class="nav-link active  text-white" href="index.html"><i class="fa-solid fa-gauge mr-2"></i>Dashboard</a><hr class="bg-secondary">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Karyawan.html"><i class="fa-solid fa-users mr-2"></i></i>Karyawan</a><hr class="bg-secondary">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Jabatan.html"><i class="fa-solid fa-user-plus mr-2"></i></i>Jabatan</a><hr class="bg-secondary">
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-white" href="Divisi.html"><i class="fa-solid fa-user-plus mr-2"></i></i>Divisi</a><hr class="bg-secondary">
+                </li>
+              <li class="nav-item">
+                  <a class="nav-link text-white" href="Absensi.html"><i class="fa-solid fa-calendar-days mr-2"></i>Absensi</a><hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="izin.html"><i class="fa-solid fa-calendar-plus mr-2"></i></i>izin</a><hr class="bg-secondary">
+                </li>
+              </ul>
+        </div>
+        <div class="col-md-10 p-5 pt-2">
+          <h3><i class="fa-solid fa-calendar-days mr-2"></i></i>Karyawan</h3><hr>
+
+          <a href=""class="btn btn-primary mb-3"><i class="fa-solid fa-plus mr-2"></i>TAMABAH DATA Karyawan</a>
+          <table class="table table-striped table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">NO</th>
+                <th scope="col">NAMA</th>
+                <th scope="col">Tanggal</th>
+                <th scope="col"> Lokasi Absensi</th>
+                <th scope="col">Jam masuk</th>
+                <th scope="col">Jam Keluar</th>
+                <th colspan="3" scope="col">AKSI</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>AGUNG</td>
+                <td>2022-05-11</td>
+                <td>Unpam Viktor</td>
+                <td>17;22;14</td>
+                <td>20;21;03 </td>
+                <td><a href="" class="btn btn-primary">DETAIL</a></td>
+                <TD><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></TD>
+                <td><i class="fa-solid fa-trash bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+
+              <tr>
+                <th scope="row">2</th>
+                <td>zakii</td>
+                <td>2022-06-11</td>
+                <td>Unpam Viktor</td>
+                <td>16;22;14</td>
+                <td>19;21;03 </td>
+                <td><a href="" class="btn btn-primary">DETAIL</a></td>
+                <TD><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></TD>
+                <td><i class="fa-solid fa-trash bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+
+              <tr>
+                <th scope="row">3</th>
+                <td>mahfud</td>
+                <td>2022-05-03</td>
+                <td>Unpam Viktor</td>
+                <td>16;22;14</td>
+                <td>18;21;03 </td>
+                <td><a href="" class="btn btn-primary">DETAIL</a></td>
+                <TD><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></TD>
+                <td><i class="fa-solid fa-trash bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+
+              <tr>
+                <th scope="row">4</th>
+                <td>wafi</td>
+                <td>2022-05-11</td>
+                <td>pustek</td>
+                <td>17;22;14</td>
+                <td>20;21;03 </td>
+                <td><a href="" class="btn btn-primary">DETAIL</a></td>
+                <TD><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></TD>
+                <td><i class="fa-solid fa-trash bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+
+              <tr>
+                <th scope="row">5</th>
+                <td>fahmi</td>
+                <td>2022-05-11</td>
+                <td>pustek</td>
+                <td>17;22;14</td>
+                <td>20;21;03 </td>
+                <td><a href="" class="btn btn-primary">DETAIL</a></td>
+                <TD><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></TD>
+                <td><i class="fa-solid fa-trash bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+              </tr>
+
+             
+
+              
+            </tbody>
+          </table>
+          
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+    <script type="text/JavaScript" src="admin/js"></script>
+  </body>
+</html>
